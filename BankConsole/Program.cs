@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+
 
 using BankConsole;
 
 User Arlindo = new User(1, "Arlindo Gonzalez", "arlindo@gmail.com", 4000);
 Arlindo.SetBalance(2000);
+Console.WriteLine("Hello, World!");
 
 // Arlindo.ID = 1;
 // Arlindo.Name = "Arlindo Gonzalez";
