@@ -1,0 +1,15 @@
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\bin\Debug\net6.0\BankConsole.exe
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\bin\Debug\net6.0\BankConsole.deps.json
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\bin\Debug\net6.0\BankConsole.runtimeconfig.json
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\bin\Debug\net6.0\BankConsole.dll
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\bin\Debug\net6.0\BankConsole.pdb
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.csproj.AssemblyReference.cache
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.AssemblyInfoInputs.cache
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.AssemblyInfo.cs
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.csproj.CoreCompileInputs.cache
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.dll
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\refint\BankConsole.dll
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.pdb
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\BankConsole.genruntimeconfig.cache
+C:\Users\Arlindo\Downloads\PRACTICAS DE LABORATORIO\POO\Bank01\BankConsole\obj\Debug\net6.0\ref\BankConsole.dll
