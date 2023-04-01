@@ -1,0 +1,26 @@
+[
+  {
+    "TaxRegime": "N",
+    "ID": 1,
+    "Name": "Arlindo Gonzalez",
+    "Email": "arlindo@gmail.com",
+    "Balance": 4080.0,
+    "RegisterDate": "2023-03-22T21:29:09.671586-06:00"
+  },
+  {
+    "Departament": "IT",
+    "ID": 2,
+    "Name": "Gerson Gonzalez",
+    "Email": "gerson@gmail.com",
+    "Balance": 2100.0,
+    "RegisterDate": "2023-03-22T21:29:09.6843012-06:00"
+  },
+  {
+    "TaxRegime": "M",
+    "ID": 3,
+    "Name": "Ana",
+    "Email": "ana@gmail.com",
+    "Balance": 1500.0,
+    "RegisterDate": "2023-03-31T22:50:10.2704515-06:00"
+  }
+]

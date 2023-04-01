@@ -1,36 +1,53 @@
+using Newtonsoft.Json;
 namespace BankConsole;
 
-public class User{
+public class User 
+{
     //Propiedades de la clase
-    private int  ID{get; set;}
-    private string Name { get; set; }
-    private string Email { get; set; }
-    private decimal Balance { get; set; }
-    private DateTime RegisterDate { get; set; }
+    [JsonProperty]
+    protected int  ID{get; set;}
+     [JsonProperty]
+    protected string Name { get; set; }
+     [JsonProperty]
+    protected string Email { get; set; }
+     [JsonProperty]
+    protected decimal Balance { get; set; }
+     [JsonProperty]
+    protected DateTime RegisterDate { get; set; }
+
+    public User(){}
 
     //Metodo de la clase
 
-    public void SetBalance(decimal Balance){
-        if(Balance < 0){
-            this.Balance = 0;
+    public virtual void SetBalance(decimal amount){
+        decimal quantity = 0;
+        if(amount < 0){
+            quantity = 0;
         }else{
-            this.Balance = Balance;
+            quantity = amount;
         }
-    }
-    public string ShowData(){
-         return  $"Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, Fecha de Registro: {this.RegisterDate}.";
+
+        this.Balance += quantity;
     }
 
-    //Nuevo constructor sin parametros
-    public User(){
-        this.Balance = 2000;
+    public virtual string ShowData(){
+         return  $"ID: {this.ID}, Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, Fecha de Registro: {this.RegisterDate.ToShortDateString()}.";
     }
+
+    public string ShowData(string initialMessage){
+         return  $"{initialMessage} -> Nombre: {this.Name}, Correo: {this.Email}, Saldo: {this.Balance}, Fecha de Registro: {this.RegisterDate}.";
+    }
+
+
     //Nuevo constructor con parametros
     public User(int ID, string Name, string Email, decimal Balance){
         this.ID = ID;
         this.Name = Name;
         this.Email = Email;
-        this.Balance = Balance;
         this.RegisterDate = DateTime.Now;
+    }
+
+    public DateTime GetRegisterDate(){
+        return RegisterDate;
     }
 }
