@@ -22,5 +22,29 @@
     "Email": "ana@gmail.com",
     "Balance": 1500.0,
     "RegisterDate": "2023-03-31T22:50:10.2704515-06:00"
+  },
+  {
+    "Departament": "IT",
+    "ID": 20,
+    "Name": "Juan",
+    "Email": "juan@gmail.com",
+    "Balance": 1050.0,
+    "RegisterDate": "2023-04-13T20:35:25.9417787-06:00"
+  },
+  {
+    "Departament": "RRHH",
+    "ID": 50,
+    "Name": "Douglas",
+    "Email": "douglas@gmail.com",
+    "Balance": 1000.0,
+    "RegisterDate": "2023-04-13T20:49:55.7426107-06:00"
+  },
+  {
+    "TaxRegime": "N",
+    "ID": 10,
+    "Name": "Pablo",
+    "Email": "pablo@gmail.com",
+    "Balance": 1020.00,
+    "RegisterDate": "2023-04-13T21:06:24.8965944-06:00"
   }
 ]
