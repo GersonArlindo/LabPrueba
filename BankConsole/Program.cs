@@ -82,7 +82,17 @@ void CreateUser(){
 }
 
 void DeleteUser(){
+    Console.Clear();
+    Console.WriteLine("Ingrese el ID del usuario que desea elimminar: ");
+    int ID = int.Parse(Console.ReadLine());
 
+    string result = StorageJson.DeleteUser(ID);
+
+    if(result.Equals("Success")){
+        Console.Write("Usuario eliminado exitosamente.");
+        Thread.Sleep(2000);
+        ShowMenu();
+    }
 }
 
 // Client ana = new Client(3, "Ana", "ana@gmail.com", 1500, 'M');

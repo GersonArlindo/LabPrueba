@@ -50,4 +50,8 @@ public class User
     public DateTime GetRegisterDate(){
         return RegisterDate;
     }
+
+    public int GetID(){
+        return ID;
+    }
 }
